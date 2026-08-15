@@ -1,0 +1,7 @@
+# Build scaffolding, not part of the marketplace
+NOTES-handoff.md
+
+.DS_Store
+
+# Set-aside work, not part of the marketplace
+.stash/

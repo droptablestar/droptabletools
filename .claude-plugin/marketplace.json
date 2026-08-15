@@ -1,0 +1,17 @@
+{
+  "name": "droptabletools",
+  "owner": {
+    "name": "droptablestar",
+    "url": "https://github.com/droptablestar"
+  },
+  "description": "Free, open Claude skills. Add once, keep getting new ones.",
+  "plugins": [
+    {
+      "name": "dt-agent",
+      "source": "./dt-agent",
+      "description": "Skills for keeping Claude Code's own configuration in good shape.",
+      "license": "MIT",
+      "keywords": ["claude-code", "memory", "configuration", "maintenance"]
+    }
+  ]
+}
