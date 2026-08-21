@@ -24,6 +24,7 @@ The same plugins work in the Claude web and desktop apps once installed.
 | Plugin | Skills | What it does |
 |---|---|---|
 | `dt-agent` | `cleanup` | Audits Claude Code's persistent memory — `CLAUDE.md` files and `.claude/rules/` at user and project scope — and proposes cuts. Finds contradictions between scopes, instructions pointing at things that no longer exist, and rules that belong in a path-scoped rule or a skill instead. |
+| `dt-agent` | `unstick` | Breaks out of a debugging session that has stopped converging — fix-and-recheck rounds that keep finding new errors instead of shrinking the list. Writes an oracle-driven ledger, rules out hypotheses for good, and knows when to revert and escalate instead of retrying. |
 
 ## Using a skill
 
