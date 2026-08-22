@@ -1,7 +1,6 @@
 {
   "name": "dt-agent",
   "description": "Skills for keeping Claude Code's own configuration in good shape.",
-  "version": "0.1.0",
   "author": {
     "name": "droptablestar",
     "url": "https://github.com/droptablestar"
